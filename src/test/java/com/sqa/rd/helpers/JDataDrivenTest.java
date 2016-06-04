@@ -1,5 +1,5 @@
 /**
- *   File Name: MultArrayTest.java<br>
+ *   File Name: JDataDrivenTest.java<br>
  *
  *   Dighe, Richa<br>
  *   Java Boot Camp Exercise<br>
@@ -10,13 +10,15 @@
 
 package com.sqa.rd.helpers;
 
+import static org.junit.Assert.*;
+
 import org.junit.*;
 
-public class MultArrayTest {
+public class JDataDrivenTest {
 
 	@Test
 	public void test() {
-		Object[][] arrayData = MultArray.getData();
-		DisplayHelper.multArray(arrayData);
+		fail("Not yet implemented");
 	}
+
 }
