@@ -13,7 +13,7 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class Test {
+public class ParseTest {
 	public static ArrayList<Object> tests = new ArrayList<Object>();
 	public static StringBuilder testString = new StringBuilder();
 

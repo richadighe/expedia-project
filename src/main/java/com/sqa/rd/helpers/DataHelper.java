@@ -145,11 +145,6 @@ public class DataHelper {
 		return resultsObj;
 	}
 
-	/**
-	 * @param lines
-	 * @param hasLabels
-	 * @return
-	 */
 	private static Object[][] parseJSONData(ArrayList<String> lines, Boolean hasLabels) {
 		// TODO Auto-generated method stub
 		return null;
