@@ -1,4 +1,10 @@
-# automation -project
-Automation Project 
+# Expedia Project
+Expedia Automation Project 
 Created by " Richa Dighe
-The project is used to add the reports that will be created during the boot camp , it will have different branches to track the project.
+
+*Eclipse
+*java
+*selenium
+*maven
+
+test to open the expedia page and search for round trip flights from one destination to the other.
