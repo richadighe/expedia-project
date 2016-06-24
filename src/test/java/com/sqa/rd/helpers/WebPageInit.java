@@ -45,6 +45,7 @@ public class WebPageInit {
 	public static void setup() {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 	}
 
