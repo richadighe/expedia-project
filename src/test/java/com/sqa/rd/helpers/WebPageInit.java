@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 
 import org.apache.commons.io.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.chrome.*;
 import org.testng.annotations.*;
 
 public class WebPageInit {
@@ -43,7 +43,10 @@ public class WebPageInit {
 
 	@BeforeClass
 	public static void setup() {
-		driver = new FirefoxDriver();
+		// driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(baseURL);

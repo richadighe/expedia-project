@@ -34,8 +34,8 @@ public class ExpediaTest extends WebPageInit {
 	}
 
 	// @Test(dataProvider = "getTextFile")
-	// @Test(dataProvider = "getData")
-	@Test(dataProvider = "getExcelData")
+	@Test(dataProvider = "getDta")
+	// @Test(dataProvider = "getExcelData")
 	public void expediaTest(String origin, String destination, String datefrom, String dateto, String noofppl)
 			throws InterruptedException {
 		double actualprice;
