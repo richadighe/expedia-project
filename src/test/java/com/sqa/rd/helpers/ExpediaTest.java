@@ -23,9 +23,9 @@ public class ExpediaTest extends WebPageInit {
 	@SuppressWarnings("javadoc")
 	@DataProvider
 	public static Object[][] getData() {
-		return new Object[][] { { "SFO", "ORD", "06/27/2016", "07/01/2016", "1" },
-				{ "SFO", "LAS", "6/24/2016", "7/23/2016", "4" }, { "ORD", "LAX", "7/12/2016", "7/15/2016", "1" },
-				{ "LAX", "LAS", "6/30/2016", "7/12/2016", "2" }, { "LAX", "SFO", "6/27/2016", "6/29/2016", "3" }, };
+		return new Object[][] { { "SFO", "ORD", "06/27/2017", "07/01/2017", "1" },
+				{ "SFO", "LAS", "6/24/2017", "7/23/2017", "4" }, { "ORD", "LAX", "7/12/2017", "7/15/2017", "1" },
+				{ "LAX", "LAS", "6/30/2017", "7/12/2017", "2" }, { "LAX", "SFO", "6/27/2017", "6/29/2017", "3" }, };
 	}
 
 	// constructor
@@ -34,7 +34,7 @@ public class ExpediaTest extends WebPageInit {
 	}
 
 	// @Test(dataProvider = "getTextFile")
-	@Test(dataProvider = "getDta")
+	@Test(dataProvider = "getData")
 	// @Test(dataProvider = "getExcelData")
 	public void expediaTest(String origin, String destination, String datefrom, String dateto, String noofppl)
 			throws InterruptedException {
